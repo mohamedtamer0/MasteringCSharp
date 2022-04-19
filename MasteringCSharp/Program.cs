@@ -7,7 +7,9 @@ namespace HelloWorld
         static void Main(String[] args)
         {
             Console.WriteLine("Hello World");
-            Console.Read();
+            Console.WriteLine("What is your name?");
+            String str = Console.ReadLine();
+            Console.WriteLine("Why, hello there " + str);
         }
     }
 }
