@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alwqar\\RiderProjects\\MasteringCSharp\\MasteringCSharp\\MasteringCSharp.csproj": {}
+    "C:\\Users\\Alwqar\\Downloads\\MasteringCSharp\\MasteringCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alwqar\\RiderProjects\\MasteringCSharp\\MasteringCSharp\\MasteringCSharp.csproj": {
+    "C:\\Users\\Alwqar\\Downloads\\MasteringCSharp\\MasteringCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alwqar\\RiderProjects\\MasteringCSharp\\MasteringCSharp\\MasteringCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\Alwqar\\Downloads\\MasteringCSharp\\MasteringCSharp.csproj",
         "projectName": "MasteringCSharp",
-        "projectPath": "C:\\Users\\Alwqar\\RiderProjects\\MasteringCSharp\\MasteringCSharp\\MasteringCSharp.csproj",
+        "projectPath": "C:\\Users\\Alwqar\\Downloads\\MasteringCSharp\\MasteringCSharp.csproj",
         "packagesPath": "C:\\Users\\Alwqar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alwqar\\RiderProjects\\MasteringCSharp\\MasteringCSharp\\obj\\",
+        "outputPath": "C:\\Users\\Alwqar\\Downloads\\MasteringCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alwqar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Alwqar\\.dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
