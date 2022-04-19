@@ -8,8 +8,8 @@ namespace MasteringCSharp
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("What is your name?");
-            String str1 = Console.ReadLine();
-            Console.WriteLine("Why, hello there " + str1);
+            // String str1 = Console.ReadLine();
+            // Console.WriteLine("Why, hello there " + str1);
 
 
             // Declare some basic value type variables
@@ -34,6 +34,11 @@ namespace MasteringCSharp
 
             // TODO: Print the values using a Formatting string
             Console.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7}", i, c, b, str, f, d, x, z);
+
+
+            // TODO: "null" means "no value"
+            object obj = null;
+            Console.WriteLine(obj);
 
         }
     }
