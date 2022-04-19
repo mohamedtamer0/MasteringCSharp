@@ -1,0 +1,15 @@
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\bin\Debug\net6.0\MasteringCSharp.exe
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\bin\Debug\net6.0\MasteringCSharp.deps.json
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\bin\Debug\net6.0\MasteringCSharp.runtimeconfig.json
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\bin\Debug\net6.0\MasteringCSharp.dll
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\bin\Debug\net6.0\MasteringCSharp.pdb
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.csproj.AssemblyReference.cache
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.AssemblyInfoInputs.cache
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.AssemblyInfo.cs
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.dll
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\refint\MasteringCSharp.dll
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.pdb
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\MasteringCSharp.genruntimeconfig.cache
+C:\Users\Alwqar\RiderProjects\MasteringCSharp\MasteringCSharp\obj\Debug\net6.0\ref\MasteringCSharp.dll
