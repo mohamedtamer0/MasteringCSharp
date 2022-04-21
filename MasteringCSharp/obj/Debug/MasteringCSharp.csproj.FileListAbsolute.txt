@@ -1,0 +1,6 @@
+c:\users\alwqar\documents\visual studio 2015\Projects\MasteringCSharp\MasteringCSharp\bin\Debug\MasteringCSharp.exe.config
+c:\users\alwqar\documents\visual studio 2015\Projects\MasteringCSharp\MasteringCSharp\bin\Debug\MasteringCSharp.exe
+c:\users\alwqar\documents\visual studio 2015\Projects\MasteringCSharp\MasteringCSharp\bin\Debug\MasteringCSharp.pdb
+c:\users\alwqar\documents\visual studio 2015\Projects\MasteringCSharp\MasteringCSharp\obj\Debug\MasteringCSharp.csprojResolveAssemblyReference.cache
+c:\users\alwqar\documents\visual studio 2015\Projects\MasteringCSharp\MasteringCSharp\obj\Debug\MasteringCSharp.exe
+c:\users\alwqar\documents\visual studio 2015\Projects\MasteringCSharp\MasteringCSharp\obj\Debug\MasteringCSharp.pdb
