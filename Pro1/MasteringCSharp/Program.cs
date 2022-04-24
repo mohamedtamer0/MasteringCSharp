@@ -12,8 +12,8 @@ namespace MasteringCSharp
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("What is your name?");
-             String str1 = Console.ReadLine();
-             Console.WriteLine("Why, hello there " + str1);
+            String str1 = Console.ReadLine();
+            Console.WriteLine("Why, hello there " + str1);
 
 
             // Declare some basic value type variables
