@@ -21,6 +21,20 @@ namespace Pro2
             Console.WriteLine("your mybyte is : " + mybyte.GetType());
 
 
+            Console.WriteLine("================================");
+
+            char myChar1 = 'A';
+            char myChar2 = '\u006A';
+            char myChar3 = '\u0061';
+            char myChar4 = '$';
+
+
+            Console.WriteLine("your Char is : " + myChar1);
+            Console.WriteLine("your Char is : " + myChar2);
+            Console.WriteLine("your Char is : " + myChar3);
+            Console.WriteLine("your Char is : " + Char.IsLetterOrDigit(myChar4));
+
+
         }
     }
 }
