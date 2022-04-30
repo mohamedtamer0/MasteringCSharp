@@ -8,8 +8,16 @@ namespace AppEmployeeCons
 {
     class Program
     {
+
+        public Program()
+        {
+            Console.WriteLine("Hello From Constructor!");
+        }
+
+
         static void Main(string[] args)
         {
+            Program obj = new Program();
         }
     }
 }
