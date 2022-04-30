@@ -25,14 +25,25 @@ namespace AppInheritance
         }
     }
 
+    class Cat:Dog
+    {
+        public void sleep()
+        {
+            Console.WriteLine("Sleep...");
+        }
+    }
+
 
     class Program
     {
         static void Main(string[] args)
         {
             Dog dog = new Dog();
+            Cat cat = new Cat();
             dog.walk();
             dog.eating();
+            cat.sleep();
+        
         }
     }
 }
