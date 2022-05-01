@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tamer;
 
 namespace Mohamed
 {
@@ -17,7 +18,7 @@ namespace Mohamed
 
 namespace Tamer
 {
-    class Person
+    class Person2
     {
         public void PrintInfo()
         {
@@ -36,7 +37,7 @@ namespace AppNameSpace
             Mohamed.Person mper = new Mohamed.Person();
             mper.PrintInfo();
 
-            Tamer.Person tper = new Tamer.Person();
+            Person2 tper = new Person2();
             tper.PrintInfo();
         }
     }
