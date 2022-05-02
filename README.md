@@ -1,0 +1,44 @@
+# MasteringCSharp
+
+
+
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 001 - Variable Naming Conventions
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 002 - Data types
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 003 - Data types Char
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 004 - Data types String
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 005 - StringBuilder Class
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 006 - String Functions
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 007 - Operators Arithmetic, Relational, Logical, Assignment, Unary, Ternary
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 008 - Date & Time format
+- [X] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 009 - ReadLine & WriteLine
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 010 - if else statement
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 011 - switch statement
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 012 - For Loop
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 013 - Comments
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 014 - While Loop & Do While Loop
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 015 - Foreach Loop
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 016 - Break & Continue Statement
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 017 - Functions , Void & Static
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 018 - Functions parameter
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 019 - Functions Return type
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 020 - Functions Call By Value
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 021 - Functions Call By Reference
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 022 - Functions Out Parameter
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 023 - Variable Scope Local & Global
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 024 - Arrays
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 025 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 026 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 027 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 028 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 029 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 030 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 031 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 032 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 033 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 034 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 035 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 036 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 037 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 038 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 039 - 
+- [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 040 - 
