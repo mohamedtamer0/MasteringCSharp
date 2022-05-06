@@ -1,7 +1,5 @@
 # MasteringCSharp
 
-
-
 - [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 001 - Variable Naming Conventions
 - [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 002 - Data types
 - [x] ![#ff5722](https://via.placeholder.com/12/ff5722/000000?text=+)  - 003 - Data types Char
