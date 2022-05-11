@@ -32,12 +32,19 @@ namespace EmployeesDatabase
 
         private void saveEmployeeBtn(object sender, RoutedEventArgs e)
         {
-            employeeRepository.Add(new Employee
+            if (!string.IsNullOrEmpty(firstNameTxt.Text) && !string.IsNullOrEmpty(lastNameTxt.Text))
             {
-                FirstName = firstNameTxt.Text,
-                LastName = lastNameTxt.Text,
-            });
-            DataGridView1.ItemsSource = employeeRepository.GetAll();
+                employeeRepository.Add(new Employee
+                {
+                    FirstName = firstNameTxt.Text,
+                    LastName = lastNameTxt.Text,
+                });
+
+                firstNameTxt.Text = string.Empty;
+                lastNameTxt.Text = string.Empty;
+                DataGridView1.ItemsSource = employeeRepository.GetAll();
+            }
+
         }
 
         private void DataGridView1_SelectionChanged(object sender, SelectionChangedEventArgs e)
