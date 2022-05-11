@@ -11,7 +11,7 @@
             <ColumnDefinition Width="5*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="DataGridView1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,27,488,48" SelectionChanged="DataGridView1_SelectionChanged" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="DataGridView1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,27,488,48" SelectionChanged="ClickCellItem" Grid.ColumnSpan="2"/>
         <Label Content="Add Employee" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="590,27,0,0" VerticalAlignment="Top" Height="29" Width="165"/>
         <TextBox x:Name="firstNameTxt" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="590,56,0,0" TextWrapping="Wrap" Text="FirstName" VerticalAlignment="Top" Width="168" Height="23"/>
         <TextBox x:Name="lastNameTxt" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="590,84,0,0" TextWrapping="Wrap" Text="LastName" VerticalAlignment="Top" Width="168" Height="23"/>
@@ -20,8 +20,8 @@
         <TextBox x:Name="editFirstNameTxt" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="590,252,0,0" TextWrapping="Wrap" Text="first name" VerticalAlignment="Top" Width="177" Height="23"/>
         <TextBox x:Name="editLastNameTxt" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="590,280,0,0" TextWrapping="Wrap" Text="last name" VerticalAlignment="Top" Width="177" Height="23"/>
         <Button x:Name="addBtn" Content="Save" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="590,122,0,0" VerticalAlignment="Top" Height="25" Width="168" Click="saveEmployeeBtn"/>
-        <Button x:Name="updateBtn" Content="Update" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="594,327,0,0" VerticalAlignment="Top" Height="30" Width="70"/>
-        <Button x:Name="deleteBtn" Content="Delete" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="678,327,0,0" VerticalAlignment="Top" Height="30" Width="70"/>
+        <Button x:Name="updateBtn" Content="Update" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="594,327,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="UpdateBtn"/>
+        <Button x:Name="deleteBtn" Content="Delete" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="678,327,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="DeleteBtn"/>
 
     </Grid>
 </Window>

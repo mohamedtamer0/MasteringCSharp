@@ -47,9 +47,45 @@ namespace EmployeesDatabase
 
         }
 
-        private void DataGridView1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ClickCellItem(object sender, SelectionChangedEventArgs e)
         {
+            if(DataGridView1.SelectedItems.Count > 0)
+            {
+                var row = DataGridView1.SelectedItems[0];
+                var employee = (Employee)row;
+                editID.Content = employee.id.ToString();
+                editFirstNameTxt.Text = employee.FirstName;
+                editLastNameTxt.Text = employee.LastName;
+            }
+        }
 
+        private void UpdateBtn(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(editFirstNameTxt.Text) && !string.IsNullOrEmpty(editLastNameTxt.Text))
+            {
+                employeeRepository.Update(new Employee
+                {
+                    id = int.Parse(editID.Content.ToString().Trim()),
+                    FirstName = editFirstNameTxt.Text.Trim(),
+                    LastName = editLastNameTxt.Text.Trim(),
+                });
+
+                editFirstNameTxt.Text = string.Empty;
+                editLastNameTxt.Text = string.Empty;
+                DataGridView1.ItemsSource = employeeRepository.GetAll();
+            }
+        }
+
+        private void DeleteBtn(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(editID.Content.ToString().Trim() ))
+            {
+                employeeRepository.Delete(int.Parse(editID.Content.ToString().Trim()));
+
+                editFirstNameTxt.Text = string.Empty;
+                editLastNameTxt.Text = string.Empty;
+                DataGridView1.ItemsSource = employeeRepository.GetAll();
+            }
         }
     }
 }
