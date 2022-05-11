@@ -47,5 +47,50 @@ namespace EmployeesDatabase
             }
             return employees;
         }
+
+
+        public void Add(Employee employee)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                connection.ConnectionString = connectionString;
+                connection.Open();
+                var command = factory.CreateCommand();
+                command.Connection = connection;
+                command.CommandText = $"Insert Into Employees (FirstName, LastName) Values ('{employee.FirstName}','{employee.LastName}');";
+                command.ExecuteNonQuery();
+            }
+        }
+
+
+        //hello
+
+        public void Update(Employee employee)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                connection.ConnectionString = connectionString;
+                connection.Open();
+                var command = factory.CreateCommand();
+                command.Connection = connection;
+                command.CommandText = $"Update Employees Set FirstName = '{employee.FirstName}', LastName = '{employee.LastName}' Where Id = '{employee.id}' ;";
+                command.ExecuteNonQuery();
+            }
+        }
+
+
+        public void Delete(int id)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                connection.ConnectionString = connectionString;
+                connection.Open();
+                var command = factory.CreateCommand();
+                command.Connection = connection;
+                command.CommandText = $"Delete From Employees Where Id = {id} ;";
+                command.ExecuteNonQuery();
+            }
+        }
+
     }
 }

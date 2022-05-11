@@ -29,6 +29,17 @@ namespace EmployeesDatabase
             DataGridView1.ItemsSource = employeeRepository.GetAll();
         }
 
+
+        private void saveEmployeeBtn(object sender, RoutedEventArgs e)
+        {
+            employeeRepository.Add(new Employee
+            {
+                FirstName = firstNameTxt.Text,
+                LastName = lastNameTxt.Text,
+            });
+            DataGridView1.ItemsSource = employeeRepository.GetAll();
+        }
+
         private void DataGridView1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
